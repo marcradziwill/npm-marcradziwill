@@ -1,14 +1,15 @@
 {
   "name": "npm-marcradziwill",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "my npm package",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcradziwill/npm-marcradziwill.git"
+    "url": "https://github.com/marcradziwill/npm-marcradziwill.git"
   },
   "keywords": [
     "marcradziwill"
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/marcradziwill/npm-marcradziwill/issues"
   },
-  "homepage": "https://github.com/marcradziwill/npm-marcradziwill#readme"
+  "homepage": "https://github.com/marcradziwill/npm-marcradziwill#readme",
+  "devDependencies": {
+    "semantic-release": "^15.13.27"
+  }
 }
