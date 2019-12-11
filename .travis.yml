@@ -8,8 +8,8 @@ branches:
     - /^\d+\.(\d+|x)(\.x)?$/
 
 node_js:
+  - 10
   - 8
-  - 6
 
 jobs:
   include:
